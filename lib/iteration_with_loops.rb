@@ -10,7 +10,7 @@ def join_nested_strings(src)
       if src[row_index][element_index].class == String
         word = src[row_index][element_index] + ' '
       end
-      sentence += string
+      sentence += word
       element_index += 1
     end
     row_index +=1
